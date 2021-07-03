@@ -7,7 +7,7 @@ import { map } from 'rxjs/operators';
 })
 export class SpotifyService {
 
-  token: 'BQA9KLIAIOI4MTAoHKsnqI9aZcGlL4cDulkLP05xBnm9-XxobKQDPVN3uwqRiEMaqZFLJDV-f-_QyyRpBeo';
+  token: 'bOP-ycJHioNwO9QNqCpaREE4jInOjigq7hESRu3NFOa_XWy5tRLPWtacerPcLRTT3ad_Lsyba3fqidxUnbQZ6s1wIge';
   constructor(private http: HttpClient) { }
 
   getQuery(query: string) {
@@ -31,7 +31,7 @@ export class SpotifyService {
   }
   
   getToken() {
-    //const URL = `https://accounts.spotify.com/authorize?client_id=654cc047ab414062b29aebe03009a48c&response_type=token&redirect_uri=http://localhost:4200/&client_secret =0a7cbe5456454b0aabe804e8394cf2d4`;
+    //const URL = `https://accounts.spotify.com/authorize?client_id=10c42072f1d8404d8b7dd3d57b69debb&response_type=token&redirect_uri=http://localhost:4200/&client_secret=f410fe26607d4e29b7952f8849654d99`;
     //window.location.href = URL;
   }
 
